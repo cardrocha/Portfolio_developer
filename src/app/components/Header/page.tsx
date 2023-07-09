@@ -27,13 +27,19 @@ const Header = () => {
           </a>
           <a
             className="bg-red-900 rounded-full p-2 hover:text-white hover:bg-red-700 shadow shadow-black/100"
+            href="#skill"
+          >
+            Skill
+          </a>
+          <a
+            className="bg-red-900 rounded-full p-2 hover:text-white hover:bg-red-700 shadow shadow-black/100"
             href="#"
           >
             Projetos
           </a>
           <a
             className="bg-red-900 p-2 rounded-full hover:text-white hover:bg-red-700 shadow shadow-black/100"
-            href="#"
+            href="#contato"
           >
             Contatos
           </a>

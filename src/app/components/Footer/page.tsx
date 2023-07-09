@@ -6,9 +6,9 @@ const Footer = () => {
 
   return (
     <>
-      <div
+      <section id="contato"
         className="container mx-auto bg-red-800 p-1 pb-1 text-white border-t-4 rounded-md
-          border-solid border-red-950"
+          border-solid border-red-950 mt-28"
       >
         <h2 className="text-4xl text-white text-center font-semibold">
           Entre em contato
@@ -40,7 +40,7 @@ const Footer = () => {
         <p className=" text-lg text-center p-4">
           &copy; {currentYear} - Desenvolvido por Ricardo Rocha
         </p>
-      </div>
+      </section>
     </>
   );
 };
