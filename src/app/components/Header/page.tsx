@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div>
       <div
-        className="container mx-auto bg-red-800 flex items-center justify-between p-6 text-white border-b-4 hover:bg-black rounded-md
+        className="container mx-auto bg-red-800 flex items-center justify-between p-6 text-white border-b-4 hover:bg-transparent rounded-md
         hover:border-solid
         hover:border-b-4
         border-red-950"
