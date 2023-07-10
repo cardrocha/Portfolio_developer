@@ -1,16 +1,22 @@
 import React from "react";
+import { BsCodeSlash } from "react-icons/bs";
 
 const Header = () => {
   return (
     <div>
       <div
-        className="container mx-auto bg-red-800 flex items-center justify-between p-6 text-white border-b-4 hover:bg-transparent rounded-md
+        className="container mx-auto px-4 bg-red-800 flex items-center justify-between p-6 text-white border-b-4 hover:bg-transparent rounded-md
         hover:border-solid
         hover:border-b-4
         border-red-950"
       >
-        <h2 className="text-3xl ml-4">
-          Bem vindo ao meu <span className="text-yellow-500">Portfólio</span>
+        <div className="flex items-center gap-2">
+          <BsCodeSlash className="text-4xl text-green-600" />
+          <h1 className="text-2xl font-semibold">Ricardo Rocha Araújo</h1>
+        </div>
+        <h2 className="text-xl ml-4">
+          Bem vindo ao meu{" "}
+          <span className="text-2xl text-yellow-500 font-semibold">Portfólio</span>
         </h2>
         <nav className="flex gap-3 text-xl font-semibold">
           <a
@@ -33,7 +39,7 @@ const Header = () => {
           </a>
           <a
             className="bg-red-900 rounded-full p-2 hover:text-white hover:bg-red-700 shadow shadow-black/100"
-            href="#"
+            href="#project"
           >
             Projetos
           </a>

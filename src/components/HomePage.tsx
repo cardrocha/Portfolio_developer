@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <>
       <div className="container mx-auto">
-        <h1 className="text-6xl mt-20 bg-clip-text text-transparent bg-gradient-to-r from-purple-700 via-white font-semibold">
+        <h1 className="text-6xl mt-32 bg-clip-text text-transparent bg-gradient-to-r from-red-700 via-white font-semibold">
           Desenvolvedor Front-end
         </h1>
         <h2 className="text-white text-4xl mt-4">
