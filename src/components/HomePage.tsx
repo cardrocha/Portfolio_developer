@@ -1,12 +1,39 @@
-import React from "react";
+'use client'
+
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import fundo from "../../public/f-bg.png";
 import perfil from "../../public/minha_foto.png";
 
 const HomePage = () => {
+  const [showUp, setShowUp] = useState(false)
+
+  useEffect(() => {
+    const scroll = () => {
+      if (window.scrollY > 0) {
+        setShowUp(true)
+      } else {
+        setShowUp(false)
+      }
+    }
+
+    window.addEventListener('scroll', scroll)
+
+    return () => {
+      window.removeEventListener('scroll', scroll)
+    }
+  })
+
+  const scrollToUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
+
   return (
     <>
-      <div className="container mx-auto">
+      <div className="container mx-auto relative">
         <h1 className="text-6xl mt-32 bg-clip-text text-transparent bg-gradient-to-r from-red-700 via-white font-semibold">
           Desenvolvedor Front-end
         </h1>
@@ -29,6 +56,16 @@ const HomePage = () => {
           height={230}
           alt="perfil"
         />
+      </div>
+      <div>
+        {showUp && (
+          <button
+            onClick={scrollToUp}
+            className="text-black text-lg font-semibold fixed bottom-44 opacity-80 right-20 bg-yellow-600 p-2 rounded-md z-10"
+          >
+            Voltar ao topo
+          </button>
+        )}
       </div>
     </>
   );
