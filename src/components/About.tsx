@@ -22,7 +22,7 @@ const About = () => {
           <span className="underline decoration-pink-600">
             Styled-components
           </span>
-          . E explorando{" "}
+          . E estou explorando{" "}
           <span className="underline decoration-gray-600">NextJs 13</span> e{" "}
           <span className="underline decoration-blue-700">TailWind CSS</span>,
           aprendendo utilizá-los em meus projetos.

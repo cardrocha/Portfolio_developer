@@ -4,11 +4,21 @@ import ProjectList from "./ProjectList";
 
 const reposList: Repos[] = [
   {
+    id: 1,
+    image: "/portfolio.png",
+    title: "Projeto Portfólio Developer",
+    description:
+      "Projeto portfolio developer aplico parte do que foi aprendido em curso, aqui apresento meus projetos pessoais e os desenvolvidos no curso",
+    language: "NextJs - TypeScript, TailWind CSS",
+    link: "https://github.com/cardrocha/Portfolio_developer",
+    deploy: "https://portfolio-developer-pi.vercel.app/",
+  },
+  {
     id: 2,
     image: "/kanban.png",
     title: "Projeto Kanban",
     description:
-      "Um projeto Kanban feito em React é uma aplicação visual que permite organizar e gerenciar tarefas de forma eficiente. O projeto permite adicionar, editar e excluir tarefas, os usuários podem mover cartões de tarefas entre colunas para indicar seu progresso.",
+      "Projeto Kanban feito em React é uma aplicação visual que permite organizar e gerenciar tarefas de forma eficiente. O projeto permite adicionar, editar e excluir tarefas, os usuários podem mover cartões de tarefas entre colunas para indicar seu progresso.",
     language: "React - TypeScript, Styled-components",
     link: "https://github.com/cardrocha/projeto_kanban",
     deploy: "https://projeto-kanban-ten.vercel.app/",
