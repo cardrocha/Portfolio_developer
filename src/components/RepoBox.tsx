@@ -13,13 +13,17 @@ type Props = {
 const RepoBox = ({ image, title, description, language, link, deploy }: Props) => {
   return (
     <>
-      <div className="flex gap-4 items-center mt-14 text-white">
+      <div className="flex flex-col-reverse xl:flex-row gap-4 items-center mt-14 text-white order-last">
         <div>
           <h2 className="text-4xl font-semibold text-center text-purple-600">
             {title}
           </h2>
-          <p className="text-2xl border-x-4 border-green-600 p-4">{description}</p>
-          <p className="text-xl text-center text-blue-600 font-semibold">Languages: {language}</p>
+          <p className="text-2xl text-center border-x-4 border-green-600 p-4">
+            {description}
+          </p>
+          <p className="text-xl text-center p-2 text-blue-600 font-semibold">
+            Languages: {language}
+          </p>
           <div className="flex items-center justify-center gap-3 mt-5">
             <a
               href={link}

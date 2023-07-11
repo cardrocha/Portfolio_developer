@@ -61,7 +61,7 @@ const HomePage = () => {
         {showUp && (
           <button
             onClick={scrollToUp}
-            className="text-black text-lg font-semibold fixed bottom-44 opacity-80 right-56 xl:right-20 bg-yellow-600 p-2 rounded-md z-10"
+            className="text-black text-lg font-semibold fixed bottom-44 opacity-80 right-10 sm:right-30 xl:right-10 bg-yellow-600 p-2 rounded-md z-10"
           >
             Voltar ao topo
           </button>
