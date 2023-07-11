@@ -34,23 +34,23 @@ const HomePage = () => {
   return (
     <>
       <div className="container mx-auto relative">
-        <h1 className="text-6xl mt-32 bg-clip-text text-transparent bg-gradient-to-r from-red-700 via-white font-semibold">
+        <h1 className="text-5xl xl:text-6xl mt-32 bg-clip-text text-transparent p-2 sm:p-2 xl:p-0 bg-gradient-to-r from-red-700 via-white font-semibold">
           Desenvolvedor Front-end
         </h1>
-        <h2 className="text-white text-4xl mt-4">
+        <h2 className="text-white text-3xl xl:text-4xl mt-4 p-2 sm:p-2 xl:p-0">
           Criando aplicações web, atraentes, responsivas.
         </h2>
       </div>
       <div className="relative">
         <Image
-          className="absolute top-14 left-3/4 transform -translate-x-1/2 -translate-y-1/2 rotate-12 rounded-md"
+          className="absolute top-48 left-48 xl:top-14 sm:left-3/4 xl:left-3/4 transform -translate-x-1/2 -translate-y-1/2 rotate-12 rounded-md"
           src={fundo}
           width={300}
           height={300}
           alt="fundo de foto"
         />
         <Image
-          className="absolute top-14 left-3/4 transform -translate-x-1/2 -translate-y-1/2 rounded-md"
+          className="absolute top-48 xl:top-14 left-48 sm:left-3/4 xl:left-3/4 transform -translate-x-1/2 -translate-y-1/2 rounded-md"
           src={perfil}
           width={230}
           height={230}
