@@ -5,7 +5,7 @@ import ProjectList from "./ProjectList";
 const reposList: Repos[] = [
   {
     id: 1,
-    image: "/portfolio.png",
+    image: "/project_portfolio.png",
     title: "Projeto Portfólio Developer",
     description:
       "Projeto portfolio developer aplico parte do que foi aprendido em curso, aqui apresento meus projetos pessoais e os desenvolvidos no curso",
