@@ -35,7 +35,7 @@ const Skills = () => {
       <h2 className="text-4xl text-white text-center mt-32 font-semibold border-b-2 border-red-600">
         Minhas Habilidades
       </h2>
-      <div className="grid grid-cols-6 gap-14 place-items-center mt-12">
+      <div className="grid grid-cols-3 sm:grid-cols-4 xl:grid-cols-6 gap-14 place-items-center mt-12">
         <div className="flex flex-col items-center hover:text-white">
           <AiFillHtml5 className="text-5xl mb-2 text-white hover:scale-125 duration-300 hover:text-orange-400 shadow shadow-white/50 rounded-lg p-1 cursor-pointer" />
           <p>HTML</p>

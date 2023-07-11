@@ -6,7 +6,7 @@ const About = () => {
       <h2 className="text-4xl text-white text-center mt-96 font-semibold border-b-2 border-red-600">
         Sobre mim
       </h2>
-      <div className="flex w-[900px] mx-auto mt-5">
+      <div className="flex w-[400] xl:w-[900px] mx-auto mt-5">
         <p className="text-white text-2xl text-center">
           Me chamo Ricardo e tenho 43 anos. Atualmente cursando{" "}
           <span className="underline decoration-red-500">
