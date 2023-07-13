@@ -5,6 +5,16 @@ import ProjectList from "./ProjectList";
 const reposList: Repos[] = [
   {
     id: 1,
+    image: "/nasaApi.png",
+    title: "Foto astronômica do dia",
+    description:
+      "Projeto Foto astronômica faço uso da Api da Nasa para fazer a requisição da api APOD, para mostra informações da foto do dia",
+    language: "NextJs - TypeScript, TailWind CSS",
+    link: "https://github.com/cardrocha/Nasa_APOD_api",
+    deploy: "https://nasa-apod-api-six.vercel.app/",
+  },
+  {
+    id: 2,
     image: "/project_portfolio.png",
     title: "Projeto Portfólio Developer",
     description:
@@ -14,7 +24,7 @@ const reposList: Repos[] = [
     deploy: "https://portfolio-developer-pi.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     image: "/kanban.png",
     title: "Projeto Kanban",
     description:
@@ -24,7 +34,7 @@ const reposList: Repos[] = [
     deploy: "https://projeto-kanban-ten.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     image: "/efood.png",
     title: "Efood",
     description:
@@ -34,7 +44,7 @@ const reposList: Repos[] = [
     deploy: "https://efood-ecommerce.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     image: "/eplay.png",
     title: "Eplay",
     description:
@@ -44,7 +54,7 @@ const reposList: Repos[] = [
     deploy: "https://eplay-one.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     image: "/todo_list.png",
     title: "Todo List",
     description:
@@ -54,7 +64,7 @@ const reposList: Repos[] = [
     deploy: "https://minhas-tarefas-wine.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     image: "/project_p.png",
     title: "Projeto Portifólio",
     description:
@@ -64,7 +74,7 @@ const reposList: Repos[] = [
     deploy: "https://projeto-portfolio-six.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     image: "/landing.png",
     title: "Landing Page Movie",
     description:
