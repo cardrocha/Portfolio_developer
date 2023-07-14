@@ -1,12 +1,13 @@
 import React from "react";
-import { AiFillGithub, AiOutlineLinkedin, AiOutlineMail } from "react-icons/ai";
+import { AiFillGithub, AiOutlineLinkedin, AiOutlineMail, AiOutlineWhatsApp } from "react-icons/ai";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
     <>
-      <section id="contato"
+      <section
+        id="contato"
         className="container mx-auto bg-red-800 p-1 pb-1 text-white border-t-4 rounded-md
           border-solid border-red-950 mt-28"
       >
@@ -34,6 +35,15 @@ const Footer = () => {
             <AiOutlineLinkedin
               className="text-5xl text-black hover:text-red-400 shadow shadow-black/100 rounded-lg p-1 cursor-pointer"
               title="Visite meu linkedin"
+            />
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=5521997924360"
+            target="_blank"
+          >
+            <AiOutlineWhatsApp
+              className="text-5xl text-black hover:text-red-400 shadow shadow-black/100 rounded-lg p-1 cursor-pointer"
+              title="Entre em contato"
             />
           </a>
         </div>
