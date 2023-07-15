@@ -41,10 +41,17 @@ const HomePage = () => {
           Criando aplicações web, atraentes, responsivas.
         </h2>
         <div className="flex flex-row gap-4 p-4 sm:p-2 xl:p-0">
-          <button className="border-red-800 border-b-4 hover:border-b-4 bg-red-600 p-3 mt-3 text-lg font-semibold text-white rounded-xl hover:bg-red-800 hover:border-red-950 hover:scale-110 duration-300">
+          <a
+            target="_blank"
+            href="/Ricardo Rocha Araújo.pdf"
+            className="border-red-800 border-b-4 hover:border-b-4 bg-red-600 p-3 mt-3 text-lg font-semibold text-white rounded-xl hover:bg-red-800 hover:border-red-950 hover:scale-110 duration-300"
+          >
             Download CV
-          </button>
-          <a href="#contato" className="bg-transparent border-red-800 border-4 p-3 mt-3 text-lg font-semibold text-red-600 rounded-xl hover:text-white hover:bg-red-800 hover:scale-110 duration-300">
+          </a>
+          <a
+            href="#contato"
+            className="bg-transparent border-red-800 border-4 p-3 mt-3 text-lg font-semibold text-red-600 rounded-xl hover:text-white hover:bg-red-800 hover:scale-110 duration-300"
+          >
             Entre em contato
           </a>
         </div>
