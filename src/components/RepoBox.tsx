@@ -22,7 +22,7 @@ const RepoBox = ({ image, title, description, language, link, deploy }: Props) =
             {description}
           </p>
           <p className="text-xl text-center p-2 text-blue-600 font-semibold">
-            Languages: {language}
+            <span className="text-red-500">Skills:</span> {language}
           </p>
           <div className="flex items-center justify-center gap-3 mt-5">
             <a

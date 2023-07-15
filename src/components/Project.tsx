@@ -5,6 +5,16 @@ import ProjectList from "./ProjectList";
 const reposList: Repos[] = [
   {
     id: 1,
+    image: "/login.png",
+    title: "Sistema de login com NextAuth",
+    description:
+      "Projeto de login de usuário usa NextAuth para gerenciar as autenticações, aqui faço uso do sistema do google cloud para logar o usuário com sua conta.",
+    language: "NextJs - TypeScript, TailWind CSS, NextAuth, Google Cloud",
+    link: "https://github.com/cardrocha/next-auth",
+    deploy: "https://next-auth-theta-roan.vercel.app/",
+  },
+  {
+    id: 2,
     image: "/nasaApi.png",
     title: "Foto astronômica do dia",
     description:
@@ -14,7 +24,7 @@ const reposList: Repos[] = [
     deploy: "https://nasa-apod-api-six.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     image: "/project_portfolio.png",
     title: "Projeto Portfólio Developer",
     description:
@@ -24,7 +34,7 @@ const reposList: Repos[] = [
     deploy: "https://portfolio-developer-pi.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     image: "/kanban.png",
     title: "Projeto Kanban",
     description:
@@ -34,7 +44,7 @@ const reposList: Repos[] = [
     deploy: "https://projeto-kanban-ten.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     image: "/efood.png",
     title: "Efood",
     description:
@@ -44,7 +54,7 @@ const reposList: Repos[] = [
     deploy: "https://efood-ecommerce.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     image: "/eplay.png",
     title: "Eplay",
     description:
@@ -54,7 +64,7 @@ const reposList: Repos[] = [
     deploy: "https://eplay-one.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     image: "/todo_list.png",
     title: "Todo List",
     description:
@@ -64,7 +74,7 @@ const reposList: Repos[] = [
     deploy: "https://minhas-tarefas-wine.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     image: "/project_p.png",
     title: "Projeto Portifólio",
     description:
@@ -74,7 +84,7 @@ const reposList: Repos[] = [
     deploy: "https://projeto-portfolio-six.vercel.app/",
   },
   {
-    id: 8,
+    id: 9,
     image: "/landing.png",
     title: "Landing Page Movie",
     description:
