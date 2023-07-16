@@ -1,7 +1,12 @@
-import React from "react";
+"use client"
+
+import * as React from "react";
 import { BsCodeSlash } from "react-icons/bs";
+import { AiOutlineMenu } from "react-icons/ai";
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = React.useState(false)
+
   return (
     <div>
       <div
@@ -20,7 +25,15 @@ const Header = () => {
             Portfólio
           </span>
         </h2>
-        <nav className="flex flex-col sm:flex-row xl:flex-row gap-3 text-xl font-semibold">
+        <AiOutlineMenu
+          onClick={() => setMenuOpen(!menuOpen)}
+          className="text-4xl text-green-600 hover:text-green-300 flex cursor-pointer sm:hidden xl:hidden"
+        />
+        <nav
+          className={`${
+            menuOpen ? "flex flex-col" : "hidden"
+          } sm:flex sm:flex-row xl:flex xl:flex-row gap-3 text-xl font-semibold `}
+        >
           <a
             className="bg-red-900 p-2 rounded-full text-center hover:text-white hover:bg-red-700 shadow shadow-black/100"
             href="#"
