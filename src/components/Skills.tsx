@@ -8,13 +8,6 @@ import * as T from "react-icons/tb";
 import * as S from "react-icons/si";
 
 const Skills = () => {
-  const html = () => {
-    <p>
-      HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais
-      básico da web.{" "}
-    </p>;
-  };
-
   return (
     <section id="skill" className="container mx-auto">
       <h2 className="text-4xl text-white text-center mt-32 font-semibold border-b-2 border-red-600">
