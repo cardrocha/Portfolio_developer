@@ -13,7 +13,7 @@ type Props = {
 const RepoBox = ({ image, title, description, language, link, deploy }: Props) => {
   return (
     <>
-      <div className="flex flex-col-reverse xl:flex-row gap-4 items-center mt-14 text-white order-last">
+      <div className="flex flex-col-reverse xl:flex-row gap-4 items-center mt-14 text-white">
         <div>
           <h2 className="text-4xl font-semibold text-center text-purple-600">
             {title}
@@ -43,7 +43,7 @@ const RepoBox = ({ image, title, description, language, link, deploy }: Props) =
             </a>
           </div>
         </div>
-        <Image src={image} alt={title} width={600} height={600} />
+        <Image className="p-10" src={image} alt={title} width={700} height={600} />
       </div>
     </>
   );
