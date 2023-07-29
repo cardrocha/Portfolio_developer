@@ -16,6 +16,7 @@ const ProjectList = ({ repo }: Props) => {
             image={repo.image}
             title={repo.title}
             description={repo.description}
+            project={repo.project}
             language={repo.language}
             link={repo.link} 
             deploy={repo.deploy}          />

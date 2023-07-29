@@ -9,6 +9,7 @@ const reposList: Repos[] = [
     title: "Sistema de login com NextAuth",
     description:
       "Projeto de login de usuário usa NextAuth para gerenciar as autenticações, aqui faço uso do sistema do google cloud para logar o usuário com sua conta.",
+    project: "Pessoal",
     language: "NextJs - TypeScript, TailWind CSS, NextAuth, Google Cloud",
     link: "https://github.com/cardrocha/next-auth",
     deploy: "https://next-auth-theta-roan.vercel.app/",
@@ -19,6 +20,7 @@ const reposList: Repos[] = [
     title: "Foto astronômica do dia",
     description:
       "Projeto Foto astronômica faço uso da Api da Nasa para fazer a requisição da api APOD, para mostra informações da foto do dia",
+    project: "Pessoal",
     language: "NextJs - TypeScript, TailWind CSS",
     link: "https://github.com/cardrocha/Nasa_APOD_api",
     deploy: "https://nasa-apod-api-six.vercel.app/",
@@ -29,26 +31,29 @@ const reposList: Repos[] = [
     title: "Projeto Portfólio Developer",
     description:
       "Projeto portfolio developer aplico parte do que foi aprendido em curso, aqui apresento meus projetos pessoais e os desenvolvidos no curso",
+    project: "Pessoal",
     language: "NextJs - TypeScript, TailWind CSS",
     link: "https://github.com/cardrocha/Portfolio_developer",
     deploy: "https://portfolio-developer-pi.vercel.app/",
   },
   {
     id: 4,
-    image: "/kanban.png",
-    title: "Projeto Kanban",
+    image: "/fitness.png",
+    title: "Landing Page - Academia",
     description:
-      "Projeto Kanban feito em React é uma aplicação visual que permite organizar e gerenciar tarefas de forma eficiente. O projeto permite adicionar, editar e excluir tarefas, os usuários podem mover cartões de tarefas entre colunas para indicar seu progresso.",
-    language: "React - TypeScript, Styled-components",
-    link: "https://github.com/cardrocha/projeto_kanban",
-    deploy: "https://projeto-kanban-ten.vercel.app/",
+      "Este é um projeto de website desenvolvido através do figma para apresentar os serviços e benefícios de uma academia. O foco é destacar os diferenciais e proporcionar informações claras sobre os pacotes disponíveis, atraindo potenciais clientes interessados em uma abordagem inovadora para saúde e bem-estar.",
+    project: "Designer do figma - Jonata Ferreira",
+    language: "NextJs - TypeScript, TailWind CSS",
+    link: "https://github.com/cardrocha/fitness-app/",
+    deploy: "https://fitness-app-rho-gules.vercel.app/",
   },
   {
     id: 5,
     image: "/efood.png",
     title: "Efood",
     description:
-      "Projeto de aplicativo de serviço de delivery online, com pagameto e checkout",
+      "Projeto de aplicativo de serviço de delivery online, com pagameto e checkout, desenvolvido com figma e usando conhecimentos adquiridos nos módulos de react.",
+    project: "Designer Ebac",
     language: "React - Redux-ToolKit, TypeScript, Styled-components",
     link: "https://github.com/cardrocha/efood_ecommerce",
     deploy: "https://efood-ecommerce.vercel.app/",
@@ -58,7 +63,8 @@ const reposList: Repos[] = [
     image: "/eplay.png",
     title: "Eplay",
     description:
-      "Projeto de aplicativo de comércio online de venda de games digitais, com pagameto e checkout",
+      "Projeto de aplicativo de comércio online de venda de games digitais, com pagameto e checkout, desenvolvido no módulo react.",
+    project: "Projeto Ebac",
     language: "React - Redux-ToolKit, TypeScript, Styled-components",
     link: "https://github.com/cardrocha/eplay",
     deploy: "https://eplay-one.vercel.app/",
@@ -69,6 +75,7 @@ const reposList: Repos[] = [
     title: "Todo List",
     description:
       "Minhas Tarefas é uma aplicação web que permite adicionar, editar, excluir tarefas e marcar como concluídas. Com uma interface simples, os usuários podem gerenciar sua lista de tarefas de forma eficiente.",
+    project: "Projeto Ebac",
     language: "React - Redux-ToolKit, TypeScript, Styled-components",
     link: "https://github.com/cardrocha/minhas-tarefas",
     deploy: "https://minhas-tarefas-wine.vercel.app/",
@@ -79,6 +86,7 @@ const reposList: Repos[] = [
     title: "Projeto Portifólio",
     description:
       "Projeto Portfólio simula uma prestadora de internet banda larga ou fibra ótica.",
+    project: "Pessoal",
     language: "HTML, CSS e Javascript",
     link: "https://github.com/cardrocha/projeto_portfolio",
     deploy: "https://projeto-portfolio-six.vercel.app/",
@@ -88,7 +96,8 @@ const reposList: Repos[] = [
     image: "/landing.png",
     title: "Landing Page Movie",
     description:
-      "Projeto de uma landing page do filme homem-aranha atraves do Aranhaverso",
+      "Projeto de uma landing page do filme homem-aranha atraves do Aranhaverso, projeto desenvolvido com comhecimentos do módulo clone Disney Plus",
+    project: "Pessoal curso",
     language: "HTML, Sass, Gulp e Javascript",
     link: "https://github.com/cardrocha/Landing-Page-Movie",
     deploy: "https://landing-page-movie.vercel.app/",

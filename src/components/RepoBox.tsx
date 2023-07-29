@@ -5,12 +5,13 @@ type Props = {
   image: string;
   title: string;
   description: string;
+  project: string;
   language: string;
   link: string
   deploy: string
 };
 
-const RepoBox = ({ image, title, description, language, link, deploy }: Props) => {
+const RepoBox = ({ image, title, description, project, language, link, deploy }: Props) => {
   return (
     <>
       <div className="flex flex-col-reverse xl:flex-row gap-4 items-center mt-14 text-white">
@@ -20,6 +21,9 @@ const RepoBox = ({ image, title, description, language, link, deploy }: Props) =
           </h2>
           <p className="text-2xl text-center border-x-4 border-green-600 p-4">
             {description}
+          </p>
+          <p className="text-xl text-center p-2 text-blue-600 font-semibold">
+            <span className="text-red-500">Projeto:</span> {project}
           </p>
           <p className="text-xl text-center p-2 text-blue-600 font-semibold">
             <span className="text-red-500">Skills:</span> {language}
@@ -43,7 +47,13 @@ const RepoBox = ({ image, title, description, language, link, deploy }: Props) =
             </a>
           </div>
         </div>
-        <Image className="p-10" src={image} alt={title} width={700} height={600} />
+        <Image
+          className="p-10"
+          src={image}
+          alt={title}
+          width={700}
+          height={600}
+        />
       </div>
     </>
   );
