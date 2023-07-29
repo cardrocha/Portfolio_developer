@@ -36,12 +36,6 @@ const Header = () => {
         >
           <a
             className="bg-red-900 p-2 rounded-full text-center hover:text-white hover:bg-red-700 shadow shadow-black/100"
-            href="#"
-          >
-            Home
-          </a>
-          <a
-            className="bg-red-900 p-2 rounded-full text-center hover:text-white hover:bg-red-700 shadow shadow-black/100"
             href="#about"
           >
             Sobre mim

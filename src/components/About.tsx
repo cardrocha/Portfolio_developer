@@ -8,7 +8,7 @@ const About = () => {
       </h2>
       <div className="flex w-[400] xl:w-[900px] mx-auto mt-5">
         <p className="text-white text-2xl text-center">
-          Me chamo Ricardo e tenho 43 anos. Atualmente cursando{" "}
+          Me chamo Ricardo Rocha, atualmente cursando{" "}
           <span className="underline decoration-red-500">
             FullStack Python na Ebac
           </span>
