@@ -41,7 +41,7 @@ const reposList: Repos[] = [
     image: "/fitness.png",
     title: "Landing Page - Academia",
     description:
-      "Este é um projeto de website desenvolvido através do figma para apresentar os serviços e benefícios de uma academia. O foco é destacar os diferenciais e proporcionar informações claras sobre os pacotes disponíveis, atraindo potenciais clientes interessados em uma abordagem inovadora para saúde e bem-estar.",
+      "Este é um projeto que visa boas práticas, estrutura de pastas, código limpo, designer responsivo, manipulação de dados.",
     project: "Designer - Jonata Ferreira",
     language: "NextJs - TypeScript, TailWind CSS",
     link: "https://github.com/cardrocha/fitness-app/",
