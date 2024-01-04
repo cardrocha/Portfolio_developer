@@ -19,7 +19,7 @@ const reposList: Repos[] = [
     image: "/nasaApi.png",
     title: "Foto astronômica do dia",
     description:
-      "Projeto Foto astronômica faço uso da Api da Nasa para fazer a requisição da api APOD, para mostra informações da foto do dia",
+      "Projeto Foto astronômica faz uso da API da NASA para fazer a requisição da api APOD, para mostra informações da foto do dia",
     project: "Pessoal",
     language: "NextJs - TypeScript, TailWind CSS",
     link: "https://github.com/cardrocha/Nasa_APOD_api",
@@ -41,7 +41,7 @@ const reposList: Repos[] = [
     image: "/fitness.png",
     title: "Landing Page - Academia",
     description:
-      "Este é um projeto que visa boas práticas, estrutura de pastas, código limpo, designer responsivo, manipulação de dados.",
+      "Este projeto visa boas práticas, estrutura de pastas, código limpo, design responsivo e manipulação de dados.",
     project: "Designer - Jonata Ferreira",
     language: "NextJs - TypeScript, TailWind CSS",
     link: "https://github.com/cardrocha/fitness-app/",
@@ -63,7 +63,7 @@ const reposList: Repos[] = [
     image: "/eplay.png",
     title: "Eplay",
     description:
-      "Projeto de aplicativo de comércio online de venda de games digitais, com pagameto e checkout, desenvolvido no módulo react.",
+      "Projeto de aplicativo de comércio online para venda de games digitais, com pagamento e checkout, desenvolvido com React e Typescript.",
     project: "Projeto Ebac",
     language: "React - Redux-ToolKit, TypeScript, Styled-components",
     link: "https://github.com/cardrocha/eplay",
@@ -74,7 +74,7 @@ const reposList: Repos[] = [
     image: "/todo_list.png",
     title: "Todo List",
     description:
-      "Minhas Tarefas é uma aplicação web que permite adicionar, editar, excluir tarefas e marcar como concluídas. Com uma interface simples, os usuários podem gerenciar sua lista de tarefas de forma eficiente.",
+      "Minhas Tarefas é uma aplicação web que permite adicionar, editar, excluir tarefas e marcá-las como concluídas. Com uma interface simples, os usuários podem gerenciar sua lista de tarefas de forma eficiente.",
     project: "Projeto Ebac",
     language: "React - Redux-ToolKit, TypeScript, Styled-components",
     link: "https://github.com/cardrocha/minhas-tarefas",
@@ -85,7 +85,7 @@ const reposList: Repos[] = [
     image: "/project_p.png",
     title: "Projeto Portifólio",
     description:
-      "Projeto Portfólio simula uma prestadora de internet banda larga ou fibra ótica.",
+      "Projeto Portfólio simula uma provedora de internet banda larga ou fibra ótica.",
     project: "Pessoal",
     language: "HTML, CSS e Javascript",
     link: "https://github.com/cardrocha/projeto_portfolio",

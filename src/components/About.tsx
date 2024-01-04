@@ -12,7 +12,7 @@ const About = () => {
           <span className="underline decoration-red-500">
             FullStack Python na Ebac
           </span>
-          . Procurando desenvolver projetos para aprimorar minhas Skills. Hoje,
+          . Buscando desenvolver projetos para aprimorar minhas habilidades. Hoje,
           minha Stack atual é o{" "}
           <span className="underline decoration-blue-500">React</span> e{" "}
           <span className="underline decoration-blue-700">Typescript</span>,
