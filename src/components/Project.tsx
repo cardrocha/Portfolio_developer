@@ -96,7 +96,7 @@ const reposList: Repos[] = [
     image: "/landing.png",
     title: "Landing Page Movie",
     description:
-      "Projeto de uma landing page do filme homem-aranha atraves do Aranhaverso, projeto desenvolvido com comhecimentos do módulo clone Disney Plus",
+      "Projeto de uma landing page do filme homem-aranha atraves do Aranhaverso, projeto desenvolvido com conhecimentos do módulo clone Disney Plus",
     project: "Pessoal curso",
     language: "HTML, Sass, Gulp e Javascript",
     link: "https://github.com/cardrocha/Landing-Page-Movie",
