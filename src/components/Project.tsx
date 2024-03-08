@@ -5,6 +5,29 @@ import ProjectList from "./ProjectList";
 const reposList: Repos[] = [
   {
     id: 1,
+    image: "/streaming1.png",
+    title: "Streaming",
+    description:
+      "Este projeto é uma landing page para um provedor de serviço de streaming fictício. Ele simula um ambiente onde os usuários podem explorar uma variedade de planos de assinatura e conteúdos disponíveis. Desenvolvido com React.js, TypeScript e styled-components, este projeto incorpora várias lógicas aprendidas durante o curso da Ebac, incluindo renderização de listas, componentes reativos com o uso de hooks do React e manipulação de estado.",
+    project: "pessoal",
+    language: "React.Js - Typescript - Styled-components",
+    link: "https://github.com/cardrocha/streaming",
+    deploy: "https://streaming-teal-xi.vercel.app/",
+  },
+  {
+    id: 2,
+    image: "/shopcart1.png",
+    title: "ShopCart - Ecommerce",
+    description:
+      "O projeto ShopCart é uma aplicação web que demonstra um carrinho de compras simples. A aplicação é construída utilizando React.js, TypeScript, Tailwind CSS e gerenciamento de estado com Zustand.",
+    project: "pessoal",
+    language:
+      "React.Js - Typescript - Tailwind CSS - Zustand - LocalStorage - Formik - Yup - React-Input-Mask",
+    link: "https://github.com/cardrocha/shopcart",
+    deploy: "https://shopcart-zeta.vercel.app/",
+  },
+  {
+    id: 3,
     image: "/login.png",
     title: "Sistema de login com NextAuth",
     description:
@@ -15,7 +38,7 @@ const reposList: Repos[] = [
     deploy: "https://next-auth-theta-roan.vercel.app/",
   },
   {
-    id: 2,
+    id: 4,
     image: "/nasaApi.png",
     title: "Foto astronômica do dia",
     description:
@@ -26,7 +49,7 @@ const reposList: Repos[] = [
     deploy: "https://nasa-apod-api-six.vercel.app/",
   },
   {
-    id: 3,
+    id: 5,
     image: "/project_portfolio.png",
     title: "Projeto Portfólio Developer",
     description:
@@ -37,7 +60,7 @@ const reposList: Repos[] = [
     deploy: "https://portfolio-developer-pi.vercel.app/",
   },
   {
-    id: 4,
+    id: 6,
     image: "/fitness.png",
     title: "Landing Page - Academia",
     description:
@@ -48,7 +71,7 @@ const reposList: Repos[] = [
     deploy: "https://fitness-app-rho-gules.vercel.app/",
   },
   {
-    id: 5,
+    id: 7,
     image: "/efood.png",
     title: "Efood",
     description:
@@ -59,7 +82,7 @@ const reposList: Repos[] = [
     deploy: "https://efood-ecommerce.vercel.app/",
   },
   {
-    id: 6,
+    id: 8,
     image: "/eplay.png",
     title: "Eplay",
     description:
@@ -70,7 +93,7 @@ const reposList: Repos[] = [
     deploy: "https://eplay-one.vercel.app/",
   },
   {
-    id: 7,
+    id: 9,
     image: "/todo_list.png",
     title: "Todo List",
     description:
@@ -81,7 +104,7 @@ const reposList: Repos[] = [
     deploy: "https://minhas-tarefas-wine.vercel.app/",
   },
   {
-    id: 8,
+    id: 10,
     image: "/project_p.png",
     title: "Projeto Portifólio",
     description:
@@ -92,7 +115,7 @@ const reposList: Repos[] = [
     deploy: "https://projeto-portfolio-six.vercel.app/",
   },
   {
-    id: 9,
+    id: 11,
     image: "/landing.png",
     title: "Landing Page Movie",
     description:
