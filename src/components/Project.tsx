@@ -17,9 +17,9 @@ const reposList: Repos[] = [
   {
     id: 2,
     image: "/shopcart1.png",
-    title: "ShopCart - Ecommerce",
+    title: "CartShop - Ecommerce",
     description:
-      "O projeto ShopCart é uma aplicação web que demonstra um carrinho de compras simples. A aplicação é construída utilizando React.js, TypeScript, Tailwind CSS e gerenciamento de estado com Zustand.",
+      "O projeto CartShop é uma aplicação web que demonstra um carrinho de compras simples. A aplicação é construída utilizando React.js, TypeScript, Tailwind CSS e gerenciamento de estado com Zustand.",
     project: "pessoal",
     language:
       "React.Js - Typescript - Tailwind CSS - Zustand - LocalStorage - Formik - Yup - React-Input-Mask",
