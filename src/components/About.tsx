@@ -8,11 +8,11 @@ const About = () => {
       </h2>
       <div className="flex w-[400] xl:w-[900px] mx-auto mt-5">
         <p className="text-white text-2xl text-center">
-          Me chamo Ricardo Rocha, atualmente cursando{" "}
+          Me chamo Ricardo Rocha, sou desenvolvedor{" "}
           <span className="underline decoration-red-500">
-            FullStack Python na Ebac
+            FullStack Python formado pela Ebac
           </span>
-          . Buscando desenvolver projetos para aprimorar minhas habilidades. Hoje,
+          . No curso adquiri habilidades e desenvolvi metodologias ageis e trabalhei em diversos projetos para aprimorar minhas competências. Hoje,
           minha Stack atual é o{" "}
           <span className="underline decoration-blue-500">React</span> e{" "}
           <span className="underline decoration-blue-700">Typescript</span>,
@@ -23,7 +23,7 @@ const About = () => {
             Styled-components
           </span>
           . E estou explorando{" "}
-          <span className="underline decoration-gray-600">NextJs 13</span> e{" "}
+          <span className="underline decoration-gray-600">Next.Js</span> e{" "}
           <span className="underline decoration-blue-700">TailWind CSS</span>,
           aprendendo utilizá-los em meus projetos.
         </p>
